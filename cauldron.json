@@ -12,12 +12,26 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "git+ssh://git@github.com/victorlss/electrodeapp-pocminiapp.git#fd96561f547663ee8cf1b64e539446c27dce9262"
+                ],
+                "nativeDeps": [
+                  "ernnavigation-api-impl-native@1.6.10",
+                  "ernnavigation-api@1.3.0",
+                  "react-native-electrode-bridge@1.5.27",
+                  "react-native@0.66.4"
+                ],
+                "miniAppsBranches": [
+                  "git+ssh://git@github.com/victorlss/electrodeapp-pocminiapp.git#main"
+                ],
+                "ernVersion": "0.49.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "a43d5173-b381-4525-8679-5296d659b778"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
